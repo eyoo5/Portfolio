@@ -12,16 +12,28 @@
       defer
       type="text/javascript"
     ></script>
+    <script defer type="text/javascript" src="script.js"></script>
     <title>Esther Yoo</title>
   </head>
   <body>
-    <h2>Teacher Turned Programmer</h2>
+    <h1>Teacher Turned Programmer</h1>
     <div class="sections">
       <div class="section-one">
+        <h2>About</h2>
+        <p>
+          Welcome to my personal profolio website. This website was created
+          fully with vanilla html, css, and javascript. I am versed in using
+          React, but I wanted to use this oppurtunity to go back to basics and
+          practice my skills in pure html, css, and javascript. Please feel free
+          to explore! For more details about this website, here is my link to
+          <a href="https://github.com/eyoo5/Portfolio">github</a>. For more
+          information about me, check out my Linkedin below:
+        </p>
+
         <div
           class="badge-base LI-profile-badge"
           data-locale="en_US"
-          data-size="large"
+          data-size="medium"
           data-theme="dark"
           data-type="HORIZONTAL"
           data-vanity="esther-yoo5"
@@ -33,7 +45,96 @@
           ></a>
         </div>
       </div>
-      <div class="section-two"></div>
+      <div class="section-two">
+        <h2>My Projects</h2>
+
+        <div class="tab">
+          <button class="tabLinks" onClick="openCity(event,'trippn')">
+            trippn
+          </button>
+          <button class="tabLinks" onClick="openCity(event,'chefHopperBakery')">
+            Chef Hopper Bakery
+          </button>
+          <button class="tabLinks" onClick="openCity(event,'Todo')">
+            Todo App
+          </button>
+        </div>
+
+        <section id="trippn" class="tabContent">
+          <p class="about">
+            Our web application trippn is a centralized task management system
+            which organizes your travel information and keeps all trip-goers in
+            the know.
+          </p>
+          <p>
+            To design this web application, we first planned how our database
+            would look and what features our minimal viable product would have.
+          </p>
+          <figure>
+            <div class="carousel">
+              <button class="slide-btn slide-btn-1"></button>
+              <button class="slide-btn slide-btn-2"></button>
+              <button class="slide-btn slide-btn-3"></button>
+              <button class="slide-btn slide-btn-4"></button>
+              <div class="carousel-wrapper">
+                <div class="slide">
+                  <img id="slide-img1" src="images/trippn1.png" />
+                </div>
+                <div class="slide">
+                  <img id="slide-img2" src="images/trippn2.png" />
+                </div>
+                <div class="slide">
+                  <img id="slide-img3" src="images/trippn3.png" />
+                </div>
+                <div class="slide">
+                  <img id="slide-img4" src="images/trippn4.png" />
+                </div>
+              </div>
+            </div>
+            <figcaption>
+              Here is our Excalidraw of our database and minimal viable product
+              outline.
+              <p>
+                One of our biggest struggles was deciding user authorization and
+                roles. Different roles were allowed different accesses. Taking
+                time to plan this and deciding how it would look through our
+                database allowed for a smoother coding experience. In the end we
+                used 2 through tables in PostgreSQL to help us gain access to
+                trips and tasks. (Click buttons to see more.)
+              </p>
+            </figcaption>
+          </figure>
+          <p>
+            We did daily standups and tracked what we were working on using
+            Trello
+          </p>
+          <figure>
+            <img id="trippn-trello" src="images/trippn5.png" />
+            <figcaption>A snapshot of our Trello</figcaption>
+          </figure>
+          <p>
+            We also presented our web application! Feel free to watch to get
+            more details on trippn.
+          </p>
+          <figure>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Gsk9KtDXRdQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </figure>
+        </section>
+
+        <section id="chefHopperBakery" class="tabContent">
+          <p class="about">
+            Chef Hopper Bakery is a e-commerce website for baked goods.
+          </p>
+        </section>
+      </div>
     </div>
   </body>
 </html>
