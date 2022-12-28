@@ -63,22 +63,6 @@ section h2 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-p {
-  color: #264e70;
-  font-family: optima, sans-serif;
-}
-
-figcaption {
-  padding-top: 1em;
-  color: #679186;
-  font-family: optima, sans-serif;
-}
-
-figcaption p {
-  color: #679186;
-  font-family: optima, sans-serif;
-}
-
 .about {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -295,4 +279,20 @@ figcaption p {
 #badge {
   display: flex;
   justify-content: center;
+}
+
+p {
+  color: #264e70;
+  font-family: optima, sans-serif;
+}
+
+figcaption {
+  padding-top: 1em;
+  color: #679186;
+  font-family: optima, sans-serif;
+}
+
+figcaption p {
+  color: #679186;
+  font-family: optima, sans-serif;
 }
