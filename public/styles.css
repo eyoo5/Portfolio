@@ -50,8 +50,7 @@ h3 {
 }
 p {
   color: #264e70;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: optima, sans-serif;
 }
 section {
   background-color: #f9b4ab;
@@ -70,14 +69,12 @@ section h2 {
 figcaption {
   padding-top: 1em;
   color: #679186;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: optima, sans-serif;
 }
 
 figcaption p {
   color: #679186;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: optima, sans-serif;
 }
 .about {
   padding-left: 2rem;
