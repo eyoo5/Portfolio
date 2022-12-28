@@ -13,6 +13,13 @@ figure {
   height: 400px;
 }
 
+h2 {
+  padding-left: 1em;
+}
+.about {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .sections {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -127,7 +134,10 @@ figure {
 
 /* tab css: */
 .tab {
+  display: flex;
+  justify-content: center;
   overflow: hidden;
+  width: max-content;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
@@ -186,4 +196,9 @@ figure {
 #trippn-trello {
   width: 35em;
   border-style: groove;
+}
+
+#badge {
+  display: flex;
+  justify-content: center;
 }
