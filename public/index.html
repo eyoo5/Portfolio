@@ -19,7 +19,7 @@
     <h1>Teacher Turned Programmer</h1>
     <div class="sections">
       <div class="section-one">
-        <h2>Esther's Portfolio</h2>
+        <h2> &#128188 Esther's Portfolio</h2>
         <p class="about">
           Welcome to my personal profolio website. This website was created
           fully with vanilla HTML, CSS, and JavaScript. I am versed in using
@@ -47,38 +47,48 @@
       </div>
 
       <div class="section-two">
-        <h2>About</h2>
+        <h2>&#128248 Snaphot of Me</h2>
         <p class="about">
-          For those who do not want to sift through my Linkden, I am a graduate
-          of Fullstack-Grace Hopper Program. Grace Hopper is a 17 immersive
-          software engineering program based in New York. Through this wonderful
-          experience, I was able to gather precious experience making web
-          applications. Through these projects, I was exposed to code reviews,
-          github, and learned how to navigate team dynamics.
+          For those who do not want to sift through my Linkedin; I was a public
+          school teacher in NYC for 6 years. In 2022, I took a leap of faith and quit. I self-studied foundational JavaScript and applied to a competive coding bootcamp called Fullstack-Grace Hopper. 
+          </p>
+          <p class="about">
+          Grace Hopper is a 17 week immersive
+          software engineering program. Through this wonderful experience, I was
+          able to gather precious experience making web applications. Through
+          these projects, I was exposed to code reviews, github, and learned how
+          to navigate team dynamics. We practiced agile project management
+          methodology and learned best practices from our instructors.
         </p>
+        <p class="about">Below you can look at just some of the projects I have created.</p>
       </div>
     </div>
     <hr />
-    <h2>My Projects</h2>
+    <h2>My Projects &#128450</h2>
 
-    <div class="tab">
-      <button class="tabLinks" onClick="openCity(event,'trippn')">
-        trippn
-      </button>
-      <button class="tabLinks" onClick="openCity(event,'chefHopperBakery')">
-        Chef Hopper Bakery
-      </button>
-      <button class="tabLinks" onClick="openCity(event,'Todo')">
-        Todo App
-      </button>
+    <div class="container">
+      <div class="tab">
+        <button class="tabLinks" onClick="openCity(event,'trippn')" id="defaultOpen">
+          &#127796 trippn
+        </button>
+        <button class="tabLinks" onClick="openCity(event,'chefHopperBakery')">
+            
+  &#128007 Chef Hopper Bakery
+        </button>
+        <button class="tabLinks" onClick="openCity(event,'Todo')">
+            
+  &#10004 Todo App
+        </button>
+      </div>
     </div>
 
     <section id="trippn" class="tabContent">
+      <h2>&#127796 trippn</h2>
       <p class="projectAbout">
         Our web application trippn is a centralized task management system which
-        organizes your travel information and keeps all trip-goers in the know.
+        organizes your travel information and keeps all trip-goers in the know.  <a class="linkToSite" href="https://chef-hopper-bakery.onrender.com/home">Travel to &#127796 trippn.</a>
       </p>
-      <p>
+      <p class="projectAbout">
         To design this web application, we first planned how our database would
         look and what features our minimal viable product would have.
       </p>
@@ -106,7 +116,7 @@
         <figcaption>
           Here is our Excalidraw of our database and minimal viable product
           outline.
-          <p>
+          <p >
             One of our biggest struggles was deciding user authorization and
             roles. Different roles were allowed different accesses. Taking time
             to plan this and deciding how it would look through our database
@@ -116,14 +126,14 @@
           </p>
         </figcaption>
       </figure>
-      <p>
-        We did daily standups and tracked what we were working on using Trello
+      <p class="projectAbout">
+        We did daily standups and tracked what we were working on using Trello.
       </p>
       <figure>
         <img id="trippn-trello" src="images/trippn5.png" />
         <figcaption>A snapshot of our Trello</figcaption>
       </figure>
-      <p>
+      <p class="projectAbout">
         We also presented our web application! Feel free to watch to get more
         details on trippn.
       </p>
@@ -141,10 +151,74 @@
     </section>
 
     <section id="chefHopperBakery" class="tabContent">
-      <p class="about">
-        Chef Hopper Bakery is a e-commerce website for baked goods.
+      <h2>&#128007 Chef Hopper Bakery</h2>
+      <p class="projectAbout">
+        Chef Hopper Bakery is a e-commerce website for baked goods.  <a class="linkToSite" href="https://chef-hopper-bakery.onrender.com/home">Hop over and visit &#128007 Chef Hopper Bakery.</a>
       </p>
-      <p></p>
+      <p class="projectAbout"> This was the first project where I worked within a group. We had to work together and come up with the most optimal way to hold items in a cart. This was our first experience in working with through tables in PostgreSQL.</p>
+      </p>
+      <figure>
+        <div class="carousel">
+          <button class="slide-btn slide-btn-1"></button>
+          <button class="slide-btn slide-btn-2"></button>
+          <button class="slide-btn slide-btn-3"></button>
+          <button class="slide-btn slide-btn-4"></button>
+          <div class="carousel-wrapper">
+            <div class="slide">
+              <img id="slide-img1" src="images/chefHopper1.png" />
+            </div>
+            <div class="slide">
+              <img id="slide-img2" src="images/chefHopper2.png" />
+            </div>
+            <div class="slide">
+              <img id="slide-img3" src="images/chefHopper3.png" />
+            </div>
+            <div class="slide">
+              <img id="slide-img4" src="images/chefHopper4.png" />
+            </div>
+          </div>
+        </div>
+        <figcaption>
+          <p >
+           For this project, our team was more visually oritented. We needed to plan out how our actual website would look like. This helped us organize our future components and clarifed what our tasks were for that component.
+          </p>
+        </figcaption>
+      </figure>
+      <p class="projectAbout">One important aspect of our project was creating seed data to work with. It was important for us to have a good working foundation to test out all our functionality.</p>
+      <figure>
+        <video width="400" height="300" controls>
+          <source src="video/chefHopperSeed.mp4" type="video/mp4">
+        </video>
+        <figcaption>Our Seed Data</figcaption>
+      </figure>
+      <p class="projectAbout">
+        To keep track of what everyone was working on we did daily stand ups and documented our tasks using Google Docs. We were in constant communication using Slack and stayed in the same Zoom room when possible. This open communication allowed for us to problem solve merge conflicts on github and pair program when one of us needed help. 
+      </p>
+      <div class="imageContainer">
+        <img width="250"  height="130"src="https://www.howtogeek.com/wp-content/uploads/2019/06/slack_logo.png?height=200p&trim=2,2,2,2"/>
+        <img width="250" height="130" src="https://i0.wp.com/blog.lulu.com/wp-content/uploads/2018/12/Writing-with-Google-Docs-Blog-Graphic-Header.jpg?fit=1200%2C675&ssl=1"/>
+        <img width="250" " height="130"src="https://www.howtogeek.com/wp-content/uploads/2020/03/zoom-logo-fixed.jpg?height=200p&trim=2,2,2,2&crop=16:9"/>
+      </div>
+      <h3> * Side Note: </h3>
+       <p class="projectAbout"> Personally for me, this was my first exposure to the idea of local storage and authorization. It was fun to make a persistent cart using local Storage. We understood that local storage was not recommened due to security reasons, but it was the easist to implemnet with the amount of time we had. However, with this knowledge, it became the catalyst that pushed me to use cookies for my project trippn.</p>
+    </section>
+
+    <section id="Todo" class="tabContent">
+      <h2>&#10004 Todo App</h2>
+      <p class="projectAbout">
+        Todo is a desktop app created with electron. <a class="linkToSite" href="https://chef-hopper-bakery.onrender.com/home">Put visiting the github link on your &#10004 Todo</a>
+
+      <p class="projectAbout"> Todo is a solo project. I had 3 days to play and create something with a framework or tool. I decided to create something with Electron. I was never able to package my app. However, I did learn the fundamentals when creating this app. </p>
+      <figure>
+        <video width="400" height="300" controls>
+          <source src="video/ToDo.mp4" type="video/mp4">
+        </video>
+        <figcaption>How Todo App Works</figcaption>
+      </figure>
+      <p class="projectAbout">
+       This project not only exposed me to Electron, but it showed me the awesome aspects of AG Grid. The Todo adding, removing, and editing functionality came with a tutorial I found on AG Grid website.
+      </p>
+      <p class="projectAbout"> The changing the name on the window came from electron documentation.</p>
     </section>
   </body>
 </html>
