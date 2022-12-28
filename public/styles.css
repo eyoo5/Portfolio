@@ -82,6 +82,8 @@ figcaption p {
 .about {
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .projectAbout {
@@ -103,6 +105,12 @@ figcaption p {
   justify-content: space-evenly;
   align-content: center;
 }
+
+.sectionContainer {
+  border-radius: 2em;
+  background-color: #bbd4ce;
+}
+
 /* carousel css below: */
 .carousel {
   height: 100%;
