@@ -1,9 +1,9 @@
 /* Theme colors: */
 .color1 {
-  color: #f9b4ab;
+  color: #ffeeee;
 }
 .color2 {
-  color: #fdebd3;
+  color: #ebd8c3;
 }
 .color3 {
   color: #264e70;
@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #fdebd3;
+  background-color: #ffeeee;
 }
 
 /* carousel */
@@ -50,7 +50,7 @@ h3 {
 }
 
 section {
-  background-color: #f9b4ab;
+  background-color: #debace;
   border-radius: 3rem;
   padding-bottom: 2em;
 }
