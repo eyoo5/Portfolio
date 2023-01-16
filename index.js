@@ -1,13 +1,18 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import { Provider } from "react-redux";
-import Main from "./Components/Main";
+// function openCity(evt, project) {
+//   let i, tabcontent, tablinks;
 
-const container = document.getElementById("root");
-const root = createRoot(container);
+//   tabcontent = document.getElementsByClassName("tabContent");
+//   for (i = 0; i < tabcontent.length; i++) {
+//     tabcontent[i].style.display = "none";
+//   }
 
-root.render(
-  <Provider>
-    <Main />
-  </Provider>
-);
+//   tablinks = document.getElementsByClassName("tabLinks");
+//   for (i = 0; i < tablinks.length; i++) {
+//     tablinks[i].className = tablinks[i].className.replace(" active", "");
+//   }
+
+//   document.getElementById(project).style.display = "block";
+//   evt.currentTarget.className += " active";
+// }
+
+document.getElementById("defaultOpen").click();
