@@ -1,5 +1,3 @@
-## Portfolio
-
-Portfolio of my my work in Fullstack Grace-Hopper.
+## Esther Yoo Portfolio Website
 
 link: https://esther-yoo-portfolio.web.app/
